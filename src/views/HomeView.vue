@@ -8,7 +8,6 @@
   </div>
   <div class="dropdown">
     <select class="select">
-      <option>Moon</option>
       <option v-for="moon in moons">{{ moon.name }}</option>
     </select>
   </div>
